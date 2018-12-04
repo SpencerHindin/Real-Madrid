@@ -52,7 +52,7 @@ a:focus {
 }
 
 #trophies {
-	 border: 10px outset blue;
+	 border: 10px outset #191970;
 }
 
 #copyright {
@@ -80,4 +80,45 @@ a:focus {
     body {
         font-family: Verdana;
     }
+}
+
+nav ul {
+  padding: 5px 0px;
+}
+
+nav ul li {
+  display:inline;
+  list-style-type: none;
+  padding: 5px 10px;
+}
+
+nav {
+  background-color: cyan;
+  margin: 10px 10px 0px 10px; 
+}
+
+nav a:link, nav a:visited {
+  color: #0e2f44;
+  font-weight: bold;
+  border-bottom: 0px;
+}
+
+nav .selected {
+  background-color: #dddddd;
+}
+
+@media (min-width: 481px) {
+  .tableContainer {
+    display: table;
+    border-spacing: 10px;
+  }
+
+  .tableRow {
+    display: table-row;
+  }
+
+  .tableCell {
+    vertical-align: top;
+    display: table-cell;
+  }
 }
